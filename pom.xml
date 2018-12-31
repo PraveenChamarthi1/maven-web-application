@@ -86,16 +86,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	    <repository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://ec2-13-232-138-44.ap-south-1.compute.amazonaws.com:8081/repository/sbidia1-release/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://ec2-13-232-138-44.ap-south-1.compute.amazonaws.com:8081/repository/sbidia1-snapshot/</url>
-	    </snapshotRepository>
+            <repository>
+              <id>central</id>
+              <name>ip-172-31-19-192.ap-south-1.compute.internal-releases</name>
+              <url>http://ec2-13-233-84-29.ap-south-1.compute.amazonaws.com:8081/artifactory/amazon-realese</url>
+           </repository>
+           <snapshotRepository>
+             <id>snapshots</id>
+             <name>ip-172-31-19-192.ap-south-1.compute.internal-snapshots</name>
+             <url>http://ec2-13-233-84-29.ap-south-1.compute.amazonaws.com:8081/artifactory/amazon-snapshot</url>
+           </snapshotRepository>
 	</distributionManagement>
 	
 	<build>
