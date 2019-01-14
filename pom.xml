@@ -88,12 +88,12 @@
 	<distributionManagement>
             <repository>
               <id>nexus</id>
-              <name>ip-172-31-19-192.ap-south-1.compute.internal-releases</name>
+              <name>mithuntechnologies-releases</name>
               <url>http://ec2-13-233-132-218.ap-south-1.compute.amazonaws.com:8081/repository/sbidia-release/</url>
            </repository>
            <snapshotRepository>
              <id>nexus</id>
-             <name>ip-172-31-19-192.ap-south-1.compute.internal-snapshots</name>
+             <name>mithuntechnologies-snapshots</name>
              <url>http://ec2-13-233-132-218.ap-south-1.compute.amazonaws.com:8081/repository/sbidia-snapshot/</url>
            </snapshotRepository>
 	</distributionManagement>
