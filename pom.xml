@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>1.5-SNAPSHOT</version>
+	<version>1.0</version>
 	
 	<name>Maven Web Application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -87,14 +87,14 @@
 	
 	<distributionManagement>
             <repository>
-              <id>central</id>
+              <id>nexus</id>
               <name>ip-172-31-19-192.ap-south-1.compute.internal-releases</name>
-              <url>http://ec2-13-233-84-29.ap-south-1.compute.amazonaws.com:8081/artifactory/amazon-realese</url>
+              <url>http://ec2-13-233-132-218.ap-south-1.compute.amazonaws.com:8081/repository/sbidia-release/</url>
            </repository>
            <snapshotRepository>
-             <id>snapshots</id>
+             <id>nexus</id>
              <name>ip-172-31-19-192.ap-south-1.compute.internal-snapshots</name>
-             <url>http://ec2-13-233-84-29.ap-south-1.compute.amazonaws.com:8081/artifactory/amazon-snapshot</url>
+             <url>http://ec2-13-233-132-218.ap-south-1.compute.amazonaws.com:8081/repository/sbidia-snapshot/</url>
            </snapshotRepository>
 	</distributionManagement>
 	
